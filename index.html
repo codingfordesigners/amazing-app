@@ -136,9 +136,6 @@
       a.delete:hover {
         color: red;
       }
-      .button a {
-        color: white;
-      }
       .highlight {
         font-weight: bold;
         color: slateblue;
@@ -147,8 +144,30 @@
         list-style: none;
         padding-bottom: 5px;
       } 
+      .button a {
+        color: white;
+      }
       button, .button {
         border-radius: 4px;
+      }
+      .primaryAction {
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        -webkit-appearance: none;
+        transition: all .25s ease-out;
+        border: 1px solid transparent;
+        border-radius: 0;
+        padding: .85em 1em;
+        margin: 0 1rem 1rem 0;
+        font-size: .9rem;
+        background: #2199e8;
+        color: #fff;
+        border-radius: 4px;
+      }
+      .secondaryAction {
+        background: grey;
+        margin: 0 1rem 0 0;
       }
       label {
         display: inline-block;
