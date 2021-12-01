@@ -302,10 +302,10 @@
         <sidebar class="order-1 md:order-2 md:pr-12" x-data="{ mobileSidebarOpen: false }">
 
             <div class="md:hidden mb-5">
-                <button class="font-bold mx-auto flex" @click="mobileSidebarOpen = !mobileSidebarOpen" >
+                <div class="flex items-center justify-center cursor-pointer font-bold mx-auto" @click="mobileSidebarOpen = !mobileSidebarOpen" >
                     <span>Categories</span>
                     <svg :class="{'rotate-180': mobileSidebarOpen}" class="transform duration-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" class="heroicon-ui"></path></svg>
-                </button>
+                </div>
             </div>
 
             <div :class="mobileSidebarOpen ? 'show' : 'hidden'" class="md:block">
