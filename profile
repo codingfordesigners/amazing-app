@@ -19,7 +19,7 @@
         <a hx-get="" class="tab" >My Likes</a> 
     </div>
 
-    <div id="tab-contents"  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 p-6">
+    <div id="tab-contents"  class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 p-6">
         <div class="card">
             <div class="h-14 flex items-center justify-between px-4">
                 <a href="https://www.flickr.com/photos/felicefelines/50618365686/in/explore-2020-11-18/" target="blank">
