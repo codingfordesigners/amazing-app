@@ -62,8 +62,14 @@
             background-color: var(--primary);
             color: white;
         }
+        .btn-secondary {   
+            background-color: var(--secondary);
+        }
         .btn:hover, .button:hover, button:hover, input[type='submit']:hover {
             background-color: var(--primary-hover);
+        }
+        .btn-secondary:hover {   
+            background-color: var(--secondary-hover);
         }
         .btn:active:focus, .btn:active:hover
         .button:active:focus, .button:active:hover
@@ -163,6 +169,25 @@
             border-left: 5px solid rgb(253, 88, 49);
             margin-bottom: 1rem;
         }
+        .tab {
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid grey;
+            font-weight: bold;
+            color: rgb(0,0,0,0.4)
+        }
+        .tab.selected {
+            border: 1px solid grey;
+            border-bottom: none;
+            border-top-left-radius: 0.5rem;
+            border-top-right-radius: 0.5rem;
+            font-weight: bold;
+            color: black;
+        }
     </style>
 </head>
 <body class="bg-gray-100">
@@ -226,7 +251,7 @@
             <p class="mb-5 md:text-xl">
                   Share your favorite Photos from Flickr and add a great caption
                 </p> 
-            <button class="btn btn-primary">Get Started</button>
+            <button class="btn">Get Started</button>
           </div>
         </div>
      </div>  
