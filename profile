@@ -2,24 +2,24 @@
 
     <img class="mb-4 object-cover w-36 h-auto rounded-full" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
 
-    <div class="mb-6" style="text-align: center; max-width: 400px;">
+    <div class="text-center max-w-md">
         <h1>Homer</h1>
-        <p><strong>Homer Simpson</strong>, Springfield</p>
-        <p>Safety inspector at the Springfield Nuclear Power Plant. Likes eating donuts.</p> 
+        <div class="flex items-center justify-center mx-auto mb-4">
+            <img class="object-cover w-6 h-6 rounded-full mr-2 opacity-60" src="https://img.icons8.com/material-outlined/50/000000/marker.png"> 
+            <span class="icon-and-text">Springfield</span>
+        </div>
+        <div class="mb-4">Safety inspector at the Springfield Nuclear Power Plant. Likes eating donuts. </div> 
     </div>
 
     <p><a href="">Edit Profile</a></p>
 
-    <div id="tabs" class="flex justify-center mt-12 mb-4"
-        hx-target="#tab-contents" 
-        hx-swap="innerHTML settle:0.2s"
-        _="on htmx:afterOnLoad take .selected for event.target"> 
-        <a hx-get="" class="tab selected">Most Liked</a>
-        <a hx-get="" class="tab" >Latest</a>  
-        <a hx-get="" class="tab" >My Likes</a> 
+    <div class="flex justify-center mt-12 mb-4"> 
+        <a class="tab selected">Most Liked</a>
+        <a class="tab" >Latest</a>  
+        <a class="tab" >My Likes</a> 
     </div>
 
-    <div id="tab-contents"  class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 p-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 p-6">
         <div class="card">
             <div class="h-14 flex items-center justify-between px-4">
                 <a href="https://www.flickr.com/photos/felicefelines/50618365686/in/explore-2020-11-18/" target="blank">
