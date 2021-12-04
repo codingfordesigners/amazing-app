@@ -143,6 +143,11 @@
         .text-link:hover {
             background-color: rgba(229, 231, 235, 1);
         }
+        .card-body p {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
         form {
             margin-top: 1rem;
         }
@@ -152,21 +157,19 @@
         label {
             width: 7rem;
           }
+        input, textarea {
+            width: 100%;
+        }
+        input[type="file"], select {
+            background-color: white;
+            padding-left: 0;
+        }
         label[for="id_remember"] {
             width: auto;
             margin-right: 0.5rem;
         }
-        .card-body p {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-        input, textarea {
-            width: 100%;
-        }
-        input[type="file"] {
-            background-color: white;
-            padding-left: 0;
+        input[name="remember"] {
+            width: auto;
         }
         .textarea, textarea, input {
             border-radius: var(--radius-sm);
