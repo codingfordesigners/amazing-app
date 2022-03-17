@@ -17,8 +17,8 @@
                     <label for="id_artist">Artist:</label>
                     <input required="" >
                 </p>
-                <button type="submit">Submit Post</button>
-                <a class="button secondaryAction" href="">Cancel</a>
+                <button type="submit" class="mt-6">Submit Post</button>
+                <a class="button secondaryAction ml-1" href="">Cancel</a>
             </form>
         </div>
     </div>
