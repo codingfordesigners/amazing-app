@@ -20,7 +20,8 @@
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 p-6">
-        <div class="card">
+       
+       <div class="card">
             <div class="h-14 flex items-center justify-between px-4">
                 <a href="https://www.flickr.com/photos/felicefelines/50618365686/in/explore-2020-11-18/" target="blank">
                     <h3 class="font-bold text-lg hover:text-purple-700 mt-4">Little Jedi</h3>
@@ -35,7 +36,7 @@
                         <img class="object-cover w-8 h-8 rounded-full mr-2" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
                         <span class="icon-and-text hover:text-purple-700">Homer</span></a>
                 </div>
-                <p class="font-secondary text-4xl pt-1 pb-12 text-center">
+                <p class="font-secondary text-4xl pt-1 pb-12">
                     This is awesome!
                 </p>
                 <div class="flex items-center justify-items-end gap-2 mb-4">
@@ -73,7 +74,7 @@
                         <img class="object-cover w-8 h-8 rounded-full mr-2" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
                         <span class="icon-and-text hover:text-purple-700">Homer</span></a>
                 </div>
-                <p class="font-secondary text-4xl pt-1 pb-12 text-center">
+                <p class="font-secondary text-4xl pt-1 pb-12">
                     This is awesome!
                 </p>
                 <div class="flex items-center justify-items-end gap-2 mb-4">
@@ -111,7 +112,7 @@
                         <img class="object-cover w-8 h-8 rounded-full mr-2" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
                         <span class="icon-and-text hover:text-purple-700">Homer</span></a>
                 </div>
-                <p class="font-secondary text-4xl pt-1 pb-12 text-center">
+                <p class="font-secondary text-4xl pt-1 pb-12">
                     This is awesome!
                 </p>
                 <div class="flex items-center justify-items-end gap-2 mb-4">
