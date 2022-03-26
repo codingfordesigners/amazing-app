@@ -64,7 +64,7 @@
 
 <form method="POST" class="card">
     <div class="card-body flex flex-col">
-        <textarea class="textarea h-24 mb-5 px-5 py-4 rounded-lg border-2 border-gray-200 font-secondary text-xl" placeholder="Add comment ..."></textarea>
+        <textarea class="textarea h-24 mb-5 px-5 py-4 rounded-lg font-secondary text-xl" placeholder="Add comment ..."></textarea>
         <button class="btn btn-primary" type="submit">Add Comment</button>
     </div>
 </form>
