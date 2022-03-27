@@ -21,7 +21,7 @@
             <a class="bg-gray-200 hover:bg-purple-200 rounded-full py-1 px-3" href="">Black&White</a>
         </div>
         <div class="flex items-center justify-between">
-            <a class="text-link" href="">1 Comment</a>
+            <a class="text-link" href="">1 comment</a>
             <span class="flex items-center gap-2">
                 <span class="flex items-center">
                        <span class="flex items-center mr-4">
