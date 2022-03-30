@@ -13,7 +13,7 @@
 
     <p><a href="">Edit Profile</a></p>
 
-    <div class="flex justify-center mt-12 mb-4"> 
+    <div class="flex mt-12 mb-4 gap-2">
         <a class="tab selected">Most Liked</a>
         <a class="tab" >Latest</a>  
         <a class="tab" >My Likes</a> 
