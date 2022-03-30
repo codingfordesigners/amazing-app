@@ -1,11 +1,15 @@
 <div class="flex flex-col items-center">
 
-    <img class="mb-4 object-cover w-36 h-auto rounded-full" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
+    <div class="max-w-xl mx-auto p-6 md:px-0">
+    <div class="card p-8">
+    <div class="card-body text-center flex flex-col items-center">
+
+    <img class="mb-4 object-cover w-36 h-36 rounded-full" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
 
     <div class="text-center max-w-md">
         <h1>Homer</h1>
         <div class="flex items-center justify-center mx-auto mb-4">
-            <img class="object-cover w-6 h-6 rounded-full mr-2 opacity-60" src="https://img.icons8.com/material-outlined/50/000000/marker.png"> 
+            <img class="object-cover w-6 h-6 mr-2 opacity-60" src="https://img.icons8.com/material-outlined/50/000000/marker.png"> 
             <span class="icon-and-text">Springfield</span>
         </div>
         <div class="mb-8">Safety inspector at the Springfield Nuclear Power Plant. Likes eating donuts. </div> 
@@ -13,12 +17,20 @@
 
     <p><a href="">Edit Profile</a></p>
 
-    <div class="flex mt-12 mb-4 gap-2">
-        <a class="tab selected">Most Liked</a>
-        <a class="tab" >Latest</a>  
-        <a class="tab" >My Likes</a> 
+    </div>
+    </div>
     </div>
 
+    <div id="tabs" class="flex justify-center mt-6 mb-4 gap-2"
+        hx-target="#tab-contents" 
+        hx-swap="innerHTML swap:0.1s"
+        _="on htmx:afterOnLoad take .selected for event.target"> 
+        <a hx-get="" class="selected tab">Latest</a>
+        <a hx-get="" class="tab">Most Liked</a>  
+        <a hx-get="" class="tab">My Favourites</a>  
+    </div>
+
+    <div id="tab-contents"></div>
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 p-6">
        
        <div class="card">
@@ -26,7 +38,7 @@
                 <a href="https://www.flickr.com/photos/felicefelines/50618365686/in/explore-2020-11-18/" target="blank">
                     <h3 class="font-bold text-lg hover:text-purple-700 mt-4">Little Jedi</h3>
                 </a> 
-                <div class="text-sm text-gray-500">@ Felicity Berkleef</div>
+                <div class="text-sm text-gray-500">flickr @ Felicity Berkleef</div>
             </div>
             <figure>
                 <a href=""><img class="w-full h-auto" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"></a></figure>
@@ -64,7 +76,7 @@
                 <a href="https://www.flickr.com/photos/felicefelines/50618365686/in/explore-2020-11-18/" target="blank">
                     <h3 class="font-bold text-lg hover:text-purple-700 mt-4">Little Jedi</h3>
                 </a> 
-                <div class="text-sm text-gray-500">@ Felicity Berkleef</div>
+                <div class="text-sm text-gray-500">flickr @ Felicity Berkleef</div>
             </div>
             <figure>
                 <a href=""><img class="w-full h-auto" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"></a></figure>
@@ -102,7 +114,7 @@
                 <a href="https://www.flickr.com/photos/felicefelines/50618365686/in/explore-2020-11-18/" target="blank">
                     <h3 class="font-bold text-lg hover:text-purple-700 mt-4">Little Jedi</h3>
                 </a> 
-                <div class="text-sm text-gray-500">@ Felicity Berkleef</div>
+                <div class="text-sm text-gray-500">flickr @ Felicity Berkleef</div>
             </div>
             <figure>
                 <a href=""><img class="w-full h-auto" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"></a></figure>
@@ -135,6 +147,7 @@
                 </div>
             </div>
         </div>  
+    </div>
     </div>
 
 </div>
