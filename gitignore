@@ -1,9 +1,9 @@
 # My Project
 media/
 node/
+staticfiles/
 static/css/style.css
 static/css/tailwind.css
-staticfiles/
 .DS_Store
 
 
