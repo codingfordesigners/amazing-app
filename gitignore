@@ -5,6 +5,8 @@ staticfiles/
 static/css/style.css
 static/css/tailwind.css
 .DS_Store
+.gitattributes
+.gitignore
 
 
 
