@@ -3,9 +3,11 @@
     <div class="max-w-xl mx-auto p-6 md:px-0">
     <div class="card p-8">
     <div class="card-body text-center flex flex-col items-center">
-
-    <img class="mb-4 object-cover w-36 h-36 rounded-full" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
-
+    
+    <div class="mb-4 w-36 h-36 rounded-full overflow-hidden">
+    <img src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
+    </div>
+    
     <div class="text-center max-w-md">
         <h1>Homer</h1>
         <div class="flex items-center justify-center mx-auto mb-4">
