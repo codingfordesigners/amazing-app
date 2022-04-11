@@ -5,7 +5,7 @@
     <div class="card-body text-center flex flex-col items-center">
     
     <div class="mb-4 w-36 h-36 rounded-full flex justify-center items-center overflow-hidden">
-    <img class="min-w-full min-h-full" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
+    <img class="h-full object-cover" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
     </div>
     
     <div class="text-center max-w-md">
