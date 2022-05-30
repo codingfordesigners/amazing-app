@@ -1,6 +1,12 @@
 <h1>Edit Post</h1>
+<div class="flex items-center mt-8">
+    <img class="object-cover w-12 h-12 rounded-lg mr-2" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"> 
+    <span class="flex items-center pb-1">
+        <b>Post Title</b>
+    </span>
+</div>
 <form method='POST'>
-    <p>This is a comment</p>
+    <textarea rows=3 class="font-secondary text-xl" >This is the post caption</textarea>
     <button type="submit" class="mt-6">Submit</button>
     <a class="button secondaryAction ml-1" href="">Go Back</a>
 </form>
