@@ -14,7 +14,7 @@
             <img class="object-cover w-6 h-6 mr-2 opacity-60" src="https://img.icons8.com/material-outlined/50/000000/marker.png"> 
             <span class="icon-and-text">Springfield</span>
         </div>
-        <div class="mb-8">Safety inspector at the Springfield Nuclear Power Plant. Likes eating donuts. </div> 
+        <div class="mb-8">I’m Bart Simpson, who the hell are you?</div> 
     </div>
 
     <p><a href="">Edit Profile</a></p>
