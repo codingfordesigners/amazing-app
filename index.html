@@ -260,7 +260,7 @@
               <div class="relative ml-2" x-data="{ dropdownOpen: false}">
                 <div @click="dropdownOpen = !dropdownOpen" class="cursor-pointer flex items-center px-4 py-1 hover:bg-gray-700 rounded-lg" >
                     <img class="object-cover w-10 h-10 rounded-full mr-2 bg-white" src="https://avatarfiles.alphacoders.com/693/thumb-69306.jpg"> 
-                    <span>Homer</span>
+                    <span>Bart</span>
                     <svg :class="{ 'rotate-180' : dropdownOpen }" class="transform duration-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"></path></svg>
                 </div>
                 <ul x-show="dropdownOpen" x-cloak @click.away="dropdownOpen = false" class="absolute focus:outline-none bg-white shadow rounded-lg w-40 border p-2 mt-2 right-0 z-20"
