@@ -1,6 +1,7 @@
+<div class="max-w-screen-2xl mx-auto p-6 md:px-0 mt-12">
 <div class="flex flex-col items-center">
 
-    <div class="max-w-xl mx-auto p-6 md:px-0">
+    <div class="w-full md:w-6/12 md:p-6">
     <div class="card p-8">
     <div class="card-body text-center flex flex-col items-center">
     
@@ -32,8 +33,8 @@
         <a hx-get="" class="tab">My Favourites</a>  
     </div>
 
-    <div id="tab-contents"></div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 p-6">
+    <div id="tab-contents">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 md:p-6">
        
        <div class="card">
             <div class="h-14 flex items-center justify-between px-4">
@@ -152,4 +153,5 @@
     </div>
     </div>
 
+</div>
 </div>
