@@ -49,7 +49,7 @@
                 <div class="flex justify-between items-center"> 
                     <a class="flex items-center mb-4 pr-3" href="">
                         <img class="object-cover w-8 h-8 rounded-full mr-1" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
-                        <span class="icon-and-text hover:text-purple-700">Homer</span></a>
+                        <span class="icon-and-text hover:text-purple-700">Bart</span></a>
                 </div>
                 <p class="font-secondary text-4xl pt-1 pb-12">
                     This is awesome!
@@ -87,7 +87,7 @@
                 <div class="flex justify-between items-center"> 
                     <a class="flex items-center mb-4" href="">
                         <img class="object-cover w-8 h-8 rounded-full mr-2" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
-                        <span class="icon-and-text hover:text-purple-700">Homer</span></a>
+                        <span class="icon-and-text hover:text-purple-700">Bart</span></a>
                 </div>
                 <p class="font-secondary text-4xl pt-1 pb-12">
                     This is awesome!
@@ -125,7 +125,7 @@
                 <div class="flex justify-between items-center"> 
                     <a class="flex items-center mb-4" href="">
                         <img class="object-cover w-8 h-8 rounded-full mr-2" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
-                        <span class="icon-and-text hover:text-purple-700">Homer</span></a>
+                        <span class="icon-and-text hover:text-purple-700">Bart</span></a>
                 </div>
                 <p class="font-secondary text-4xl pt-1 pb-12">
                     This is awesome!
