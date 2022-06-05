@@ -1,0 +1,10 @@
+<h1 class="mb-2">Edit Profile</h1>
+<p class="text-lg mb-10 text-gray-400">@ {{ user.username }}</p>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="mt-6">Submit</button>
+    <a class="button secondaryAction ml-1" href="{{ request.GET.next }}">Cancel</a>
+</form>
+
+<a class="button btn-red mt-20" href="">Delete Profile</a>
