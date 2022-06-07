@@ -1,14 +1,11 @@
 <h1>Delete Post</h1>
 <p>Are you sure you want to delete this post?</p>
-<div class="flex items-center mt-4">
-    <img class="object-cover w-12 h-12 rounded-lg mr-2" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"> 
+<div class="flex items-center mt-8">
+    <img class="object-cover w-20 h-20 rounded-lg mr-2" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"> 
     <span class="flex items-center pb-1">
         <b>Post Title</b>
     </span>
 </div>
-<p class="font-secondary text-4xl pt-1 mt-4">
-    This is a comment
-</p>
 
 <form method='POST'>
     <button type="submit" class="mt-6">Confirm</button>
