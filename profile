@@ -1,7 +1,7 @@
 <div class="max-w-screen-2xl mx-auto p-6 md:px-0 mt-12">
 <div class="flex flex-col items-center">
 
-    <div class="w-full md:w-6/12 md:p-6">
+    <div class="w-full md:w-6/12">
     <div class="card p-8">
     <div class="card-body text-center flex flex-col items-center">
     
