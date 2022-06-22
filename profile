@@ -18,7 +18,7 @@
         <div class="mb-8">I hate school but I love hamburgers</div> 
     </div>
 
-    <p><a href="">Edit Profile</a></p>
+    <div><a class="btn btn-outline" href="">Edit Profile</a></div>
 
     </div>
     </div>
