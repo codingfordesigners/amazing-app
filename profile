@@ -29,8 +29,10 @@
         hx-swap="innerHTML swap:0.1s"
         _="on htmx:afterOnLoad take .selected for event.target"> 
         <a class="selected tab">Latest</a>
-        <a class="tab">Most Liked</a>  
-        <a class="tab">My Favourites</a>  
+        <a class="tab">Top Photos</a>  
+        <a class="tab">Top Captions</a>
+        <span class="px-2 pt-1 text-gray-400">|</span>
+        <a class="tab">Liked Posts</a>
     </div>
 
     <div id="tab-contents">
